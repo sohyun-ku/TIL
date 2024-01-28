@@ -32,7 +32,7 @@ test {
 
 ### Spring Boot에서 Junit5 이용하기
 - `spring-boot-starter-test:3.2.2` 기준, 하위 dependency에 junit.jupiter v5를 포함
-    ![img.png](img.png)
+    ![img.png](img/junit설정.png)
 - spring boot 2.4 버전부터 junit vintage engine이 제거 되었기 때문에 명시적으로 dependency 추가 필요
   - JUnit 5’s Vintage Engine Removed from spring-boot-starter-test
     If you upgrade to Spring Boot 2.4 and see test compilation errors for JUnit classes such as org.junit.Test, this may be because JUnit 5’s vintage engine has been removed from spring-boot-starter-test. The vintage engine allows tests written with JUnit 4 to be run by JUnit 5. If you do not want to migrate your tests to JUnit 5 and wish to continue using JUnit 4, add a dependency on the Vintage Engine, as shown in the following example for Maven
